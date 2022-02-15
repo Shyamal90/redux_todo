@@ -1,0 +1,12 @@
+In Redux, a store in a javaScript object with a few special functions and abilitiesthat make it diffent a plain globla object.
+
+
+To update the state of store , create a plain action object which describes "something that happened in the application. and then dispatch the action to the store to tell it what happend;
+
+When an action is dispatched , the store runs the root reducer function.
+
+
+when ever store is updated. ... it nofifies subscribers that state has been updated.
+
+
+*** For creating store , we need - const store = createStore(<rootReducer>)
